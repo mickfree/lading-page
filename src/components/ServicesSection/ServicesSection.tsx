@@ -13,12 +13,13 @@ const ServicesSection: React.FC = () => {
               <span className="text-blue-500">Aire Acondicionado y</span> <span className="text-blue-700">Ventilación Mecánica</span>
             </h2>
             <p className="text-gray-600">
-              Somos Friotemp, <span className="font-semibold">empresa de aires acondicionados y ventilación mecánica.</span> Con 36 años en el Perú, brindando soluciones integrales de acondicionamiento de aire y sistemas de ventilación.
+              Somos Jp Ingeniería y Servicios, <span className="font-semibold">empresa de aires acondicionados y ventilación mecánica.</span> Con 17 años en el Perú, brindando soluciones integrales de acondicionamiento de aire y sistemas de ventilación.
             </p>
             <div className="flex justify-start space-x-6 mt-6">
-              <img src="/images/logo/daikin.png" alt="Daikin" className="h-12" />
-              <img src="/images/logo/lg.png" alt="LG" className="h-12" />
-              <img src="/images/logo/samsung.jpg" alt="Samsung" className="h-12" />
+              <img src="/images/logo/daikin.png" alt="Daikin" className="h-8" />
+              <img src="/images/logo/lg.png" alt="LG" className="h-8" />
+              <img src="/images/logo/trane.png" alt="Samsung" className="h-8" />
+              <img src="/images/logo/sp.png" alt="SP" className="h-8" />
             </div>
           </div>
 
@@ -30,7 +31,6 @@ const ServicesSection: React.FC = () => {
                 alt="Instalación"
                 className="w-full h-32 object-cover rounded-lg"
               />
-              <h3 className="text-sm font-bold text-blue-500 mt-2">INSTALACIÓN</h3>
             </div>
             <div className="flex flex-col items-center text-center">
               <img
@@ -38,7 +38,6 @@ const ServicesSection: React.FC = () => {
                 alt="Proyectos"
                 className="w-full h-32 object-cover rounded-lg"
               />
-              <h3 className="text-sm font-bold text-blue-500 mt-2">PROYECTOS</h3>
             </div>
             <div className="flex flex-col items-center text-center">
               <img
@@ -46,7 +45,6 @@ const ServicesSection: React.FC = () => {
                 alt="Mantenimiento"
                 className="w-full h-32 object-cover rounded-lg"
               />
-              <h3 className="text-sm font-bold text-blue-500 mt-2">MANTENIMIENTO</h3>
             </div>
           </div>
         </div>

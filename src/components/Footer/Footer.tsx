@@ -8,18 +8,15 @@ const Footer: React.FC = () => {
         <div>
           <h4 className="text-lg font-bold mb-4">Informes</h4>
           <p className="flex items-center mb-2">
-            📞 <span className="ml-2">(+51) 01 461 2277</span>
+            📞 <span className="ml-2">977-727-060</span>
           </p>
           <p className="font-semibold">Ventas e Instalación:</p>
           <ul className="text-sm space-y-1">
-            <li>Anexos 204 - 205</li>
-            <li>+51 989 454 003</li>
-            <li>+51 989 316 332</li>
+            <li>+51 977-727-060</li>
           </ul>
           <p className="font-semibold mt-4">Posventa y Mantenimiento:</p>
           <ul className="text-sm space-y-1">
-            <li>Anexo 202</li>
-            <li>+51 989 311 600</li>
+            <li>+51 977-727-060</li>
           </ul>
         </div>
 
@@ -79,7 +76,7 @@ const Footer: React.FC = () => {
           <a href="#" className="text-white text-xl hover:opacity-75">📺</a>
         </div>
         <p className="text-sm text-center">
-          © INGENIEROS FRIOTEMP S.A.C. • Teléf. (+511) 461 2277 • Calle José Mariano Arce N.º 493, Pueblo Libre - Lima - Perú
+          © J. P. Ingenieria y Servicios S. R. L. • Teléf. 977-727-060 • Jr. Áncash 302 Alto Libertad (Paralela al Mcdo.del Pueblo)
         </p>
       </div>
     </footer>

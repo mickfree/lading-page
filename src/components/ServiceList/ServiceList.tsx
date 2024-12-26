@@ -21,7 +21,7 @@ const ServicesList: React.FC = () => {
           </div>
 
           <div className="bg-white shadow-md p-6 rounded-lg text-center">
-            <img src="/images/services/tools.png" alt="Mantenimiento" className="w-16 h-16 mx-auto mb-4" />
+            <img src="/images/services/employee.png" alt="Mantenimiento" className="w-16 h-16 mx-auto mb-4" />
             <h3 className="text-lg font-bold text-blue-700 mb-2">Mantenimiento</h3>
             <p className="text-gray-600">
               El mantenimiento debe realizarse para evitar enfermedades, alto consumo eléctrico, reparaciones costosas, bajo rendimiento del equipo.
@@ -29,7 +29,7 @@ const ServicesList: React.FC = () => {
           </div>
 
           <div className="bg-white shadow-md p-6 rounded-lg text-center">
-            <img src="/images/services/tools.png" alt="Proyectos" className="w-16 h-16 mx-auto mb-4" />
+            <img src="/images/services/calefaction.png" alt="Proyectos" className="w-16 h-16 mx-auto mb-4" />
             <h3 className="text-lg font-bold text-blue-700 mb-2">Elaboración y Ejecución de Proyectos</h3>
             <p className="text-gray-600">
               Desarrollamos proyectos de aires acondicionados y ventilación, con profesionales de experiencia en cada uno de los temas.
@@ -37,15 +37,15 @@ const ServicesList: React.FC = () => {
           </div>
 
           <div className="bg-white shadow-md p-6 rounded-lg text-center">
-            <img src="/images/services/tools.png" alt="Venta de Equipos" className="w-16 h-16 mx-auto mb-4" />
-            <h3 className="text-lg font-bold text-blue-700 mb-2">Venta de Equipos York, LG y Samsung</h3>
+            <img src="/images/services/air-conditioner.png" alt="Venta de Equipos" className="w-16 h-16 mx-auto mb-4" />
+            <h3 className="text-lg font-bold text-blue-700 mb-2">Venta de Equipos York, Daikin y Trane</h3>
             <p className="text-gray-600">
               Tenemos los mejores equipos residenciales, comerciales e industriales. Comienza tu proyecto con nosotros.
             </p>
           </div>
 
           <div className="bg-white shadow-md p-6 rounded-lg text-center">
-            <img src="/images/services/tools.png" alt="Presurización de Escaleras" className="w-16 h-16 mx-auto mb-4" />
+            <img src="/images/services/propeller-conditioner.avif" alt="Presurización de Escaleras" className="w-16 h-16 mx-auto mb-4" />
             <h3 className="text-lg font-bold text-blue-700 mb-2">Presurización de Escaleras</h3>
             <p className="text-gray-600">
               En caso de incendio en un edificio, un ventilador de escaleras presurizadas utiliza aire exterior limpio para presurizar el aire en las escaleras.
@@ -53,7 +53,7 @@ const ServicesList: React.FC = () => {
           </div>
 
           <div className="bg-white shadow-md p-6 rounded-lg text-center">
-            <img src="/images/services/tools.png" alt="Extracción de Monóxido" className="w-16 h-16 mx-auto mb-4" />
+            <img src="/images/services/propeller.png" alt="Extracción de Monóxido" className="w-16 h-16 mx-auto mb-4" />
             <h3 className="text-lg font-bold text-blue-700 mb-2">Extracción de Monóxido</h3>
             <p className="text-gray-600">
               La extracción de monóxido de carbono (CO₂), de las Playas de Estacionamientos, tiene como objetivo garantizar la no acumulación de monóxido.
