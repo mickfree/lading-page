@@ -1,11 +1,10 @@
-// src/components/Slider.tsx
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css';
 
 const Slider: React.FC = () => {
   return (
-    <div className="w-full mt-4">
+    <div className="bg-gray-100 w-full">
       <Swiper
         spaceBetween={50} // Espacio entre las imágenes
         slidesPerView={1} // Cantidad de imágenes visibles al mismo tiempo
@@ -13,13 +12,25 @@ const Slider: React.FC = () => {
         autoplay={{ delay: 3000 }} // Autoplay con intervalo de 3 segundos
       >
         <SwiperSlide>
-          <img src="/images/slider/image1.jpeg" alt="Imagen 1" className="w-full h-80  object-cover" />
+          <img
+            src="/images/slider/banner-aire-acondicionado.avif"
+            alt="Imagen 1"
+            className="w-full h-[500px] object-cover"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/images/slider/image2.jpeg" alt="Imagen 1" className="w-full h-80 object-cover" />
+          <img
+            src="/images/slider/banner-aire-acondicionado.avif"
+            alt="Imagen 2"
+            className="w-full h-[500px] object-cover"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/images/slider/image3.jpeg" alt="Imagen 1" className="w-full h-80 object-cover" />
+          <img
+            src="/images/slider/banner-aire-acondicionado.avif"
+            alt="Imagen 3"
+            className="w-full h-[500px] object-cover"
+          />
         </SwiperSlide>
       </Swiper>
     </div>

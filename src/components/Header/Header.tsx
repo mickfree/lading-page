@@ -1,15 +1,22 @@
 // src/components/Header.tsx
 import React from 'react';
-import logo from '/images/logo/logo-jp.jpg'
 
 const Header: React.FC = () => {
   return (
-    <header className="bg-white p-4">
-      <div className="flex items-center justify-center space-x-4"> {/* Centrado horizontal y vertical */}
-        <img src={logo} alt="Logo de la empresa" className="h-12" />
-        <span className="bg-gray-600 text-white text-lg md:text-xl px-4 py-2 rounded-lg">
-          Somos especialistas en: <span className="font-bold">instalación de aire acondicionado y calefacción</span>
-        </span>
+    <header className="bg-custom-header-gray p-1">
+      <div className="container mx-auto flex items-center justify-between max-w-screen-lg">
+        <div className="flex items-center space-x-4">
+          <p className="text-white text-sm md:text-base">
+            Somos especialistas en:{" "}
+            <span className="font-bold">instalación de aire acondicionado y calefacción</span>
+          </p>
+        </div>
+
+        <div className="flex items-center space-x-2 text-white">
+          <p className="text-xs md:text-sm">Aire Acondicionado</p>
+          <p className="text-xs md:text-sm">Ventilador</p>
+          <p className="text-xs md:text-sm">Informes</p>
+        </div>
       </div>
     </header>
   );
